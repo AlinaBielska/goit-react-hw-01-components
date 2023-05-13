@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
+    return (
     <div class="profile">
   <div class="description">
     <img
@@ -27,7 +28,8 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       <span class="quantity">{stats.likes}</span>
     </li>
   </ul>
-</div>
+        </div>
+        )
 }
 
 Profile.propTypes = {
