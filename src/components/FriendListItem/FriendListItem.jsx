@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-const FriendListItem = ({ avatar, name, isOnline, key}) => {
+const FriendListItem = ({ avatar, name, isOnline}) => {
     return (
-        <li class="item" key={key}>
+        <li class="item">
             <span class="status"></span>
             <img class="avatar" src={avatar} alt="User avatar" width="48" />
             <p class="name">{name}</p>

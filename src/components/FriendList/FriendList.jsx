@@ -12,7 +12,7 @@ const FriendList = ({ friends }) => {
                         isOnline={friend.isOnline}
                         key={friend.id}
                     />
-                )
+                );
             })}
         </ul>
     );
