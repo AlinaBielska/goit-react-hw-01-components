@@ -10,7 +10,17 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        margin: 0,
+        backgroundColor: "#3a6186",
+        textAlign: "center",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        paddingBlock: 30,
+    }}>
       <Profile
         username={user.username}
         tag={user.tag}

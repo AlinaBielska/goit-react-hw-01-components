@@ -1,0 +1,31 @@
+.profile {
+    background-color: white;
+    width: 30%;
+    padding-top: 10px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.stats {
+    background-color: #89253e;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 10px;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.quantity {
+    font-weight: 700;
+}
