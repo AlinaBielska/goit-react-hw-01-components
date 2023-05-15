@@ -1,6 +1,6 @@
 .profile {
     background-color: white;
-    width: 30%;
+    width: 350px;
     padding-top: 10px;
 }
 
@@ -28,4 +28,10 @@
 
 .quantity {
     font-weight: 700;
+}
+.tag {
+    color: rgb(100, 96, 96);
+}
+.location {
+    composes: tag;
 }
