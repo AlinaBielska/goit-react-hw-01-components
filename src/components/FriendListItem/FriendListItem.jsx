@@ -8,6 +8,6 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
             <p className={css.name}>{name}</p>
         </li>
     );
-}
+};
 
 export default FriendListItem;
